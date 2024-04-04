@@ -1,0 +1,47 @@
+.rowGameContainer {
+    display: flex; 
+    margin-left: 16.5%;
+    margin-top: 10px;
+}
+
+:focus {
+    outline: none;
+}
+
+.letterBox {
+    width: 100px;
+    height: 100px;
+    background-color: #03212c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 10px; /* Add some space between boxes */
+}
+
+.individualGameComponent {
+    background-color: transparent;
+}
+
+.gameComponent {
+    background-color: #154e62;
+    width: 100%;
+    height: 100vh; /* vh stands for viewport height */
+}
+
+.endGame {
+    position: absolute;
+    background-color: whitesmoke;
+    top: 50px; /* Adjust the top position as needed */
+    left: 50px; /* Adjust the left position as needed */
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    justify-content: center;
+    align-items: center;
+    line-height: 100px; /* Center text vertically */
+    text-align: center; /* Center text horizontally */
+    border: 8px solid rgb(65, 7, 7);
+}
+
